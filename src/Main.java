@@ -179,6 +179,7 @@ public class main {
             return sum / values.length;
             double[] dataPoints = { 1.0, 2.0, 3.0, 4.0, 5.0 };
             double average = getAverage(dataPoints);
+            //displays average of the data points listed
             System.out.println("Average of dataPoints is: " + average);
         }
     }
